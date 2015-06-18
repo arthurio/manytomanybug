@@ -17,7 +17,7 @@ class BugTestCase(TestCase):
         # Our form is an instance of FormA
         self.assertTrue(isinstance(form, FormA))
         # The table for FormA is 'app1_forma'
-        self.assertEqual(f._meta.db_table, 'app1_forma')
+        self.assertEqual(form._meta.db_table, 'app1_forma')
 
         # The table name of FormA is not in the produced query
         self.assertFalse('app1_forma' in query.tables)
