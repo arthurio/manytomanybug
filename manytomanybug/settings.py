@@ -39,7 +39,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'manytomanybug.app1',
     'manytomanybug.app2',
-    'manytomanybug.app3',
     'django_extensions',
 )
 
