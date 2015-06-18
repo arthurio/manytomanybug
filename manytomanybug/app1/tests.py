@@ -24,3 +24,6 @@ class BugTestCase(TestCase):
 
         # However the table FormB is used instead
         self.assertTrue('app1_formb' in query.tables)
+
+        print "Wrong query:"
+        print query
